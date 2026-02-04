@@ -1,16 +1,17 @@
-# DEX Audit Toolkit
+# Dex-Audit-Toolkit
 
-**Simple Python tool to scan DEX routers for reentrancy, unsafe calls, and access control**
-
----
+A lightweight Python tool to audit DEX routers and smart contracts for common vulnerabilities (reentrancy, unsafe calls, tx.origin issues, giveaway scams, etc.).
 
 ## Features
-- Reentrancy Guard Detection
-- Unsafe External Calls (`call`, `delegatecall`)
-- Access Control Check (simplified)
+- Detects reentrancy risks
+- Flags unsafe external calls (`call`, `delegatecall` without checks)
+- Checks for improper access control / ownership issues
+- tx.origin vulnerability detection
+- Giveaway scam pattern detection
+- Simple console output with warnings
 
----
-
-## Setup
+## Installation
 ```bash
-pip install web3 requests
+git clone https://github.com/jabirabdullahi098-rgb/Dex-Audit-Toolkit.git
+cd Dex-Audit-Toolkit
+pip install -r requirements.txt
