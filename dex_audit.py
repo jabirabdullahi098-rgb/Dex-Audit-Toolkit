@@ -1,5 +1,5 @@
 # Dex-Audit-Toolkit
-Simple phyton tool to scan Dex routers for reetrancy, unsafe calls and access control 
+Simple Python tool to scan Dex routers for reentrancy, unsafe calls and access control 
 # dex_audit.py
 # Simple DEX Router Security Scanner
 # Author: @AbdullahiJabir5 | Physics x Web3 Security
